@@ -1,0 +1,39 @@
+.appContainer {
+  background-color: white;
+}
+.appTitle {
+  color: #2C88D9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.appForm {
+  background-color: #D5E7F7;
+  padding: 10px;
+}
+
+.appInputForm {
+  margin-top: 50px;
+}
+
+.appButtonForm {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.appArticle {
+  background-color: #D5E7F7;
+  padding: 10px;          
+}
+
+.appTitleArticle {
+  color: #2C88D9;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.appImage {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+}
