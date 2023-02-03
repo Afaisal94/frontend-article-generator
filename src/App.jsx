@@ -50,9 +50,7 @@ function App() {
   return (
     <Container className="appContainer">
       <Row>
-        <center>
-          <h2 className="appTitle">ARTICLE GENERATOR USING CHATGPT OPENAI</h2>
-        </center>
+        <h2 className="appTitle">ARTICLE GENERATOR USING CHATGPT OPENAI</h2>
       </Row>
 
       {/* FORM */}
@@ -130,9 +128,6 @@ function App() {
             <h1 className="appTitleArticle">
               Article Generated With Keyword : {keyword}
             </h1>
-          </center>
-          <center>
-            <img src={image} className="appImage" />
           </center>
           <article>
             <div dangerouslySetInnerHTML={{ __html: content }} />
